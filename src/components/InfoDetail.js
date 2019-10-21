@@ -1,14 +1,12 @@
 import React from 'react';
 import './styles/Details.css';
 import Box from './Box';
-import Breadcrumb from './Breadcrumb';
 
 const InfoDetail = (props) => {
 	const handleClick = _ => (alert('La acción no esta disponible...'))
 	return (
 		<div className="App">
 			<Box />
-			<Breadcrumb />
 			<div className="detailContent">
 				<div className="detailProduct">
 					<img src={props.imagen} className='Imag'/>
