@@ -3,6 +3,7 @@ import Info from './Info';
 import Box from './Box';
 
 import axios from 'axios';
+import Breadcrumb from './Breadcrumb';
 
 const Result = (props) => {
 	const [data, setData] = useState({ results: [] });
@@ -30,6 +31,7 @@ const Result = (props) => {
 	return (
 	<div className="App">
 		<Box />
+		<Breadcrumb />
 		<div className="Result">
 			<ul>
 				{data.results.length

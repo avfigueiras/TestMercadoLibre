@@ -75,3 +75,33 @@ label{
     padding: 26px;
     color: #666;
 }
+/*Estilos del Breadcrumb*/
+
+.breadcrumb{
+    padding: 0;
+    margin-top:16px;
+    background: #eee;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    width: 100%;
+
+}
+
+.breadcrumb li a{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    display: block;
+    float: left;
+    color: #666;
+       
+}
+
+.breadcrumb li{
+    border:none;
+    font-size: 14px;
+    background: #eee;
+  
+}
