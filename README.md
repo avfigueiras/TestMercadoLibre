@@ -1,7 +1,10 @@
-# TestMercadoLibre
-Test de mercado libre
 
-Pasos a seguir>
+## Available Scripts
 
-1- npm install
-2- npm start
+In the project directory, you can run:
+
+### `npm install`
+
+Run the following code:
+
+### `npm start`

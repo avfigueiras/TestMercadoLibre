@@ -1,0 +1,77 @@
+ul{
+    list-style: none;
+    background: #fff;
+    padding: 5px;
+    width: 80%;
+}
+
+.resultList{
+    background:#fff;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.Result{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background:#eee;
+    margin: 16px 0 16px 0px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+li{
+    border: 1px solid rgba(0,0, 0, .2);
+}
+
+.data{
+    display:flex;
+    flex-direction: column;
+    width: 700px;
+    height: 100%;
+}
+
+.ResultPrice{
+    display: flex;
+    height: 60px;
+}
+
+.data p{
+    display:flex;
+    align-items: center;
+    font-size: 18px;
+    margin:5px;
+    width: 50%;
+    color:#333;
+}
+
+.ImagenInfo{
+    width: 180px;
+    height:180px;
+    border-radius: 4px;
+}
+
+.ImagenCar{
+    width: 24px;
+    height:22px;
+    margin-top: 27px;
+    margin-left: 16px;
+}
+
+h3{
+    font-size: 24px;
+    margin-left: 16px;
+    height: 50px;
+    color:#333;
+}
+
+label{
+    display: flex;
+    justify-content:flex-end;
+    align-items: flex-start;
+    font-size: 12px;
+    margin-left: auto;
+    padding: 26px;
+    color: #666;
+}
